@@ -19,7 +19,8 @@
     "README.md",
     "docs/PUBLISH.md",
     "docs/market-entry.yml",
-    "tools/selfcheck.mjs"
+    "tools/selfcheck.mjs",
+    "docs/INSTALL-for-friends.md"
   ],
   "dsh": {
     "bundle": {
