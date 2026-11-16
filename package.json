@@ -47,8 +47,16 @@
   "engines": {
     "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.2.2-0 || >=0.2.2-rc.1 <0.3.0-0"
   },
-  "author": "xone",
+  "author": "EddyLee1010",
   "scripts": {
     "selfcheck": "node tools/selfcheck.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyLee1010/wage-calculator.git"
+  },
+  "homepage": "https://github.com/EddyLee1010/wage-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/EddyLee1010/wage-calculator/issues"
   }
 }
