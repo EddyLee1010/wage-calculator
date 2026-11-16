@@ -19,32 +19,21 @@
 
 ---
 
-## 二、你要在 GitHub 上做的（4 步）
+## 二、GitHub 仓库（已完成 ✅）
 
-### 1. 建公开仓库
+- 仓库：https://github.com/EddyLee1010/wage-calculator
+- 公开可访问（匿名读取 HTTP 200）
+- `main` 分支已推送，本地与远端同步
+- `package.json` 已含 `repository` / `homepage` / `bugs` / `author`
+- 远端 `package.json` 已验证含 `dsh.bundle`，`cordis.patch.yml`、`client.js`、`index.js`、`locale/*.json` 均可访问
 
-仓库名建议：`wage-calculator`
+### 还剩两步
 
-### 2. 推代码上去了
-
-在 `/Users/xone/五行三界外/` 下执行（把地址换成你自己的）：
-
-```bash
-cd /Users/xone/五行三界外/wage-calculator
-git init
-git add .
-git commit -m "wage calculator: DSH plugin"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/wage-calculator.git
-git push -u origin main
-```
-
-### 3. 给仓库打 topic
+**① 给仓库打 topic**（硬性要求，CI 会查）
 
 仓库页面右侧 About 区域的齿轮 → 添加 topic：**`dsh-plugin`**
-（这是硬性要求，CI 会查）
 
-### 4. 等满 1 天
+**② 等满 1 天**
 
 仓库**创建满 1 天**才能提 PR，CI 自动检查。这是为了过滤「PR 前几分钟才建仓」的情况，不是对你插件的评价。
 
@@ -54,7 +43,7 @@ git push -u origin main
 
 仓库：https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
 
-Fork → 新建文件 `data/plugins/<你的用户名>__wage-calculator.yml`，内容用 `docs/market-entry.yml`，把 `<你的GitHub用户名>` 替换成你的用户名 → 提 PR。
+Fork → 新建文件 `data/plugins/EddyLee1010__wage-calculator.yml` → 内容直接复制 `docs/market-entry.yml`（用户名和 URL 都已填好）→ 提 PR。
 
 **注意：只加这一个文件，不要手改 README**（README 由脚本生成，手改必然冲突）。
 
@@ -95,9 +84,10 @@ Fork → 新建文件 `data/plugins/<你的用户名>__wage-calculator.yml`，�
 
 ## 七、你准备好仓库后，告诉我地址
 
-我会把这些一次性填好：
-- `package.json` 的 `repository`、`homepage`、`bugs` 字段
-- `docs/market-entry.yml` 里的用户名
-- README 顶部的仓库链接
+以上都已填好并推送：
 
-然后就只剩你提 PR 这一步了。
+- `package.json` 的 `repository`、`homepage`、`bugs`、`author` ✅
+- `docs/market-entry.yml` 里的用户名与 URL ✅
+- README 补充了「零依赖、不联网、配置只存本地」的说明 ✅
+
+现在只剩：**打 topic → 等满 1 天 → 提 PR**。
