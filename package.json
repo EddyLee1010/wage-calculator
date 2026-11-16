@@ -20,7 +20,8 @@
     "docs/PUBLISH.md",
     "docs/market-entry.yml",
     "tools/selfcheck.mjs",
-    "docs/INSTALL-for-friends.md"
+    "docs/INSTALL-for-friends.md",
+    "docs/SELF-TEST.md"
   ],
   "dsh": {
     "bundle": {
