@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# 依赖与构建产物（本项目零依赖，正常不会出现）
+node_modules/
+*.tgz
+
+# 打包生成的压缩包
+*.zip
