@@ -21,7 +21,10 @@
     "docs/market-entry.yml",
     "tools/selfcheck.mjs",
     "docs/INSTALL-for-friends.md",
-    "docs/SELF-TEST.md"
+    "docs/SELF-TEST.md",
+    "docs/DETAIL.md",
+    "docs/preview.svg",
+    "docs/DETAIL.en.md"
   ],
   "dsh": {
     "bundle": {

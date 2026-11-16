@@ -304,6 +304,7 @@ window.__ModuleLoader__.load({
           title: '工资计算器',
           description:
             '挂在界面右下的工资看板：填月薪、上下班与午休时间，实时结算今天已经赚了多少钱（午休不计薪）。',
+          detail: 'docs/DETAIL.md',
         },
         app: {
           title: '工资计算器',
@@ -365,6 +366,7 @@ window.__ModuleLoader__.load({
           title: 'Wage Calculator',
           description:
             "A wage board pinned to the bottom-right of the UI: set monthly salary, work days, start/end times and lunch break to see today's earnings settle in real time (lunch unpaid).",
+          detail: 'docs/DETAIL.en.md',
         },
         app: {
           title: 'Wage Calculator',

@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "Wage Calculator",
-    "description": "A wage board pinned to the bottom-right of the UI: set monthly salary, work days, start/end times and lunch break to see today's earnings settle in real time (lunch unpaid)."
+    "description": "A wage board pinned to the bottom-right of the UI: set monthly salary, work days, start/end times and lunch break to see today's earnings settle in real time (lunch unpaid).",
+    "detail": "docs/DETAIL.en.md"
   },
   "app": {
     "title": "Wage Calculator",

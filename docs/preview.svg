@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <!-- 浅色底板：在深色与浅色主题下都能看清 -->
+  <rect width="640" height="300" rx="20" fill="#e8ecf3"/>
+
+  <!-- 左侧：背景界面示意（浅灰块，弱化，不抢主体） -->
+  <rect x="40" y="72" width="184" height="10" rx="5" fill="#c9d2df"/>
+  <rect x="40" y="94" width="128" height="8" rx="4" fill="#d5dce7"/>
+  <rect x="40" y="126" width="252" height="52" rx="10" fill="#dae1ea"/>
+  <rect x="40" y="192" width="252" height="40" rx="10" fill="#dae1ea"/>
+  <rect x="40" y="246" width="176" height="10" rx="5" fill="#d5dce7"/>
+  <circle cx="66" cy="152" r="10" fill="#c2ccda"/>
+  <circle cx="66" cy="212" r="10" fill="#c2ccda"/>
+
+  <!-- 主看板：白色悬浮卡片（与真实看板一致：白底、圆角、细边、投影） -->
+  <rect x="376" y="44" width="224" height="212" rx="14" fill="#ffffff" stroke="#dfe4ec" stroke-width="1.5"/>
+
+  <!-- 标题行 -->
+  <rect x="398" y="66" width="88" height="9" rx="4.5" fill="#c3cbd7"/>
+  <circle cx="546" cy="71" r="4" fill="#c3cbd7"/>
+  <circle cx="564" cy="71" r="4" fill="#c3cbd7"/>
+
+  <!-- 今日已赚标签 -->
+  <rect x="398" y="96" width="60" height="9" rx="4.5" fill="#c3cbd7"/>
+
+  <!-- 大号金额：用字形色块示意（无文字） -->
+  <rect x="398" y="118" width="26" height="32" rx="5" fill="#1f2328"/>
+  <rect x="430" y="118" width="26" height="32" rx="5" fill="#1f2328"/>
+  <rect x="462" y="118" width="26" height="32" rx="5" fill="#1f2328"/>
+  <circle cx="498" cy="134" r="5" fill="#1f2328"/>
+  <rect x="512" y="118" width="26" height="32" rx="5" fill="#1f2328"/>
+  <rect x="544" y="118" width="26" height="32" rx="5" fill="#1f2328"/>
+  <rect x="512" y="156" width="26" height="5" rx="2.5" fill="#1f2328"/>
+  <rect x="544" y="156" width="26" height="5" rx="2.5" fill="#1f2328"/>
+
+  <!-- 进度条 -->
+  <rect x="398" y="186" width="180" height="7" rx="3.5" fill="#e3e8ef"/>
+  <rect x="398" y="186" width="118" height="7" rx="3.5" fill="#1a9e5c"/>
+
+  <!-- 状态行：绿点 + 文字色块 -->
+  <circle cx="403" cy="216" r="5" fill="#1a9e5c"/>
+  <rect x="416" y="211" width="96" height="9" rx="4.5" fill="#c3cbd7"/>
+
+  <!-- 右下角收起态胶囊：说明收起后仍显示实时金额 -->
+  <rect x="470" y="262" width="94" height="24" rx="12" fill="#ffffff" stroke="#dfe4ec" stroke-width="1.5"/>
+  <circle cx="486" cy="274" r="5" fill="#1a9e5c"/>
+  <rect x="500" y="270" width="48" height="8" rx="4" fill="#c3cbd7"/>
+</svg>
