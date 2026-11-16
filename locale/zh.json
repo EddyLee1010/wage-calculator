@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "工资计算器",
+    "description": "挂在界面右下的工资看板：填月薪、上下班与午休时间，实时结算今天已经赚了多少钱（午休不计薪）。"
+  },
+  "app": {
+    "title": "工资计算器",
+    "subtitle": "实时结算 · 只算今天 · 午休不计薪",
+    "earnedLabel": "今日已赚",
+    "hourlyLabel": "时薪",
+    "dailyLabel": "日薪",
+    "progressLabel": "今日进度",
+    "dragHint": "按住顶部可拖动"
+  },
+  "line": {
+    "summary": "时薪 {hourly} · 今日进度 {progress}%"
+  },
+  "status": {
+    "before": "还没上班",
+    "beforeEta": "还没上班 · 还有 {eta}开工",
+    "working": "正在赚",
+    "after": "今天收工了",
+    "afterEta": "今天收工了 · {eta}后开工"
+  },
+  "eta": {
+    "minutes": "{n} 分钟",
+    "hourOnly": "{n} 小时",
+    "hours": "{n} 小时 {m} 分"
+  },
+  "setup": {
+    "title": "填一下你的工资参数",
+    "monthlyLabel": "月薪",
+    "daysLabel": "每月工作天数",
+    "startLabel": "上班时间",
+    "endLabel": "下班时间",
+    "lunchLabel": "午餐休息（不计薪）",
+    "lunchStartLabel": "午休开始",
+    "lunchEndLabel": "午休结束"
+  },
+  "unit": {
+    "yuan": "元",
+    "day": "天",
+    "percent": "%"
+  },
+  "button": {
+    "start": "开始看板",
+    "save": "保存",
+    "cancel": "取消",
+    "settings": "设置",
+    "close": "关闭",
+    "undock": "展开工资计算器",
+    "lang": "语言"
+  },
+  "toast": {},
+  "error": {
+    "invalidNumber": "请输入大于 0 的数字",
+    "invalidTime": "时间格式不对，应形如 09:00",
+    "invalidLunch": "午休时间不对：结束要晚于开始"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "Wage Calculator",
+    "description": "A wage board pinned to the bottom-right of the UI: set monthly salary, work days, start/end times and lunch break to see today's earnings settle in real time (lunch unpaid)."
+  },
+  "app": {
+    "title": "Wage Calculator",
+    "subtitle": "Settles in real time · today only · lunch unpaid",
+    "earnedLabel": "Earned today",
+    "hourlyLabel": "Hourly",
+    "dailyLabel": "Daily",
+    "progressLabel": "Today's progress",
+    "dragHint": "Drag the top edge to move"
+  },
+  "line": {
+    "summary": "¥{hourly}/h · {progress}% of today"
+  },
+  "status": {
+    "before": "Not started yet",
+    "beforeEta": "Not started · starts in {eta}",
+    "working": "Earning now",
+    "after": "Done for today",
+    "afterEta": "Done for today · next shift in {eta}"
+  },
+  "eta": {
+    "minutes": "{n} min",
+    "hourOnly": "{n} h",
+    "hours": "{n} h {m} min"
+  },
+  "setup": {
+    "title": "Set up your pay",
+    "monthlyLabel": "Monthly salary",
+    "daysLabel": "Working days per month",
+    "startLabel": "Start time",
+    "endLabel": "End time",
+    "lunchLabel": "Lunch break (unpaid)",
+    "lunchStartLabel": "Lunch starts",
+    "lunchEndLabel": "Lunch ends"
+  },
+  "unit": {
+    "yuan": "CNY",
+    "day": "d",
+    "percent": "%"
+  },
+  "button": {
+    "start": "Start board",
+    "save": "Save",
+    "cancel": "Cancel",
+    "settings": "Settings",
+    "close": "Close",
+    "undock": "Show wage calculator",
+    "lang": "Language"
+  },
+  "toast": {},
+  "error": {
+    "invalidNumber": "Enter a number greater than 0",
+    "invalidTime": "Time must look like 09:00",
+    "invalidLunch": "Lunch end must be after lunch start"
+  }
+}

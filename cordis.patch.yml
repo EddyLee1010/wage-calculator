@@ -1,0 +1,5 @@
+# 工资计算器：bundle 声明的 patch 层。
+# 声明 client 插件要注册的会话槽位：浮层看板本体（shell 级 overlay）。
+- insert:
+    - id: wage-calculator
+      name: 'wage-calculator'

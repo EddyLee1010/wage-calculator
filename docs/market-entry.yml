@@ -1,0 +1,20 @@
+# 上架用条目 —— 提到 awesome-dsh-plugin 仓库时，把它另存为：
+#   data/plugins/<你的GitHub用户名>__wage-calculator.yml
+#
+# 注意：
+#   1. 只加这一个文件，不要手改 README（README 由脚本生成）。
+#   2. url 必须与仓库地址完全一致。
+#   3. 描述必须与代码实际行为一致（评审会对着源码核）。
+#      本插件按 SETTLE_MS=2000 每 2 秒刷新，午休不计薪，纯前端零依赖不联网，
+#      因此描述写 "in real time" / "实时"，不要写 "every second" / "每秒"。
+
+url: https://github.com/<你的GitHub用户名>/wage-calculator
+name: <你的GitHub用户名>/wage-calculator
+category: fun
+
+description:
+  en: A wage board pinned to the bottom-right of the DeepSeek Harness UI that settles today's earnings in real time from your monthly salary, work days, hours and lunch break, with the lunch break unpaid. Zero dependencies, no network access, settings stay local.
+  zh: 挂在 DeepSeek Harness 界面右下角的工资看板：填月薪、每月工作天数、上下班与午休时间，实时结算今天已赚金额，午休不计薪。零依赖、不联网，配置只存本地。
+
+# 可选：市场卡片图标（GitHub 托管的 png/jpg/webp，约 96px 显示，不要 SVG）
+# icon: https://raw.githubusercontent.com/<你的GitHub用户名>/wage-calculator/main/assets/icon-180.png

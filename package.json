@@ -1,0 +1,54 @@
+{
+  "name": "wage-calculator",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "工资计算器：一块挂在 DeepSeek Harness 界面上的工资看板。设置月薪、每月工作天数、上下班与午休时间，实时结算今天已经赚了多少钱；午休期间停摆不计薪。纯前端，配置保存在本地。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/zh.json",
+    "locale/en.json",
+    "package.json",
+    "README.md",
+    "docs/PUBLISH.md",
+    "docs/market-entry.yml",
+    "tools/selfcheck.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "external": [],
+      "immediately": true
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "client-plugin",
+    "wage",
+    "salary",
+    "calculator",
+    "timer",
+    "earnings",
+    "pay"
+  ],
+  "license": "MIT",
+  "engines": {
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.2.2-0 || >=0.2.2-rc.1 <0.3.0-0"
+  },
+  "author": "xone",
+  "scripts": {
+    "selfcheck": "node tools/selfcheck.mjs"
+  }
+}
