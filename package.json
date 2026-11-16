@@ -24,7 +24,11 @@
     "docs/SELF-TEST.md",
     "docs/DETAIL.md",
     "docs/preview.svg",
-    "docs/DETAIL.en.md"
+    "docs/DETAIL.en.md",
+    "screenshots.json",
+    "assets/board.png",
+    "assets/mainpage.png",
+    "assets/icon-180.png"
   ],
   "dsh": {
     "bundle": {
@@ -63,5 +67,6 @@
   "homepage": "https://github.com/EddyLee1010/wage-calculator#readme",
   "bugs": {
     "url": "https://github.com/EddyLee1010/wage-calculator/issues"
-  }
+  },
+  "icon": "assets/icon-180.png"
 }

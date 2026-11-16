@@ -17,4 +17,4 @@ description:
   zh: "挂在 DeepSeek Harness 界面右下角的工资看板：填月薪、每月工作天数、上下班与午休时间，实时结算今天已赚金额，午休不计薪。零依赖、不联网，配置只存本地。"
 
 # 可选：市场卡片图标（GitHub 托管的 png/jpg/webp，约 96px 显示，不要 SVG）
-# icon: https://raw.githubusercontent.com/EddyLee1010/wage-calculator/main/assets/icon-180.png
+icon: https://raw.githubusercontent.com/EddyLee1010/wage-calculator/main/assets/icon-180.png
